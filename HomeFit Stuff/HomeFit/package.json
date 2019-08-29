@@ -1,0 +1,32 @@
+{
+  "name": "simplewebrtc-messenger",
+  "version": "1.0.0",
+  "description": "Simple WebRTC Messenger",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "WebRTC"
+  ],
+  "author": "Michael Wanyoike",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brandiqa/simplewebrtc-messenger.git"
+  },
+  "dependencies": {
+    "@andyet/simplewebrtc": "^1.14.4",
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.1",
+    "karma": "^4.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/brandiqa/simplewebrtc-messenger/issues"
+  },
+  "homepage": "https://github.com/brandiqa/simplewebrtc-messenger#readme",
+  "main": "server.js",
+  "devDependencies": {}
+}

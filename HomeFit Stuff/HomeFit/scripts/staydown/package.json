@@ -1,0 +1,44 @@
+{
+  "_from": "staydown@^1.3.1",
+  "_id": "staydown@1.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ucqzarrOd5blDLw8s77yBTjr/uatraxAqDeGS2iM0P45k5zTMtezkYdvsAmpzLAZm0HfXZSdAYrZYFt5jn19FQ==",
+  "_location": "/staydown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "staydown@^1.3.1",
+    "name": "staydown",
+    "escapedName": "staydown",
+    "rawSpec": "^1.3.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.3.1"
+  },
+  "_requiredBy": [
+    "/@andyet/simplewebrtc"
+  ],
+  "_resolved": "https://registry.npmjs.org/staydown/-/staydown-1.3.2.tgz",
+  "_shasum": "fa422904b44b9a1dddcc1ed0b22626c05990589a",
+  "_spec": "staydown@^1.3.1",
+  "_where": "C:\\Users\\Samuel Jones\\Desktop\\1\\node_modules\\@andyet\\simplewebrtc",
+  "bugs": {
+    "url": "https://github.com/fritzy/staydown/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Keep overflowed containers scrolled down, but allow user intervention",
+  "devDependencies": {
+    "precommit-hook": "*"
+  },
+  "homepage": "https://github.com/fritzy/staydown",
+  "main": "index.js",
+  "name": "staydown",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fritzy/staydown.git"
+  },
+  "scripts": {},
+  "version": "1.3.2"
+}

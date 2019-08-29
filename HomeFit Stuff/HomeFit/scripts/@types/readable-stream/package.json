@@ -1,0 +1,56 @@
+{
+  "_from": "@types/readable-stream@^2.3.1",
+  "_id": "@types/readable-stream@2.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Dp6t95yGEOm2y669mQrSl0kUg+oL+bJEiCWMyDv0Yq+FcVvjzNRLTAqJks2LDBYYrazZXNI7lZXq3lp7MOvt4A==",
+  "_location": "/@types/readable-stream",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@types/readable-stream@^2.3.1",
+    "name": "@types/readable-stream",
+    "escapedName": "@types%2freadable-stream",
+    "scope": "@types",
+    "rawSpec": "^2.3.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.3.1"
+  },
+  "_requiredBy": [
+    "/stanza"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/readable-stream/-/readable-stream-2.3.1.tgz",
+  "_shasum": "59d458b51c84c585caea06e296e2225057c9ea8e",
+  "_spec": "@types/readable-stream@^2.3.1",
+  "_where": "C:\\Users\\Samuel Jones\\Desktop\\HomeFit\\node_modules\\stanza",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "TeamworkGuy2",
+      "url": "https://github.com/TeamworkGuy2"
+    }
+  ],
+  "dependencies": {
+    "@types/node": "*",
+    "safe-buffer": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for readable-stream",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/readable-stream",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/readable-stream"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "types": "index",
+  "typesPublisherContentHash": "268ccb635f8613df67c857554a16e768f63e5e58fd748404ed60f7aba9ffea43",
+  "version": "2.3.1"
+}

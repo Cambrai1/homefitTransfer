@@ -1,0 +1,126 @@
+{
+  "_from": "stanza@^11.1.1",
+  "_id": "stanza@11.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-rQUYTDRIQnBexm19bjO6nHwaZTkGi6Q/SlYNh9v/Psxz4dd/1TxlsnoT6G1uxzjFASkqmHdc1BJ+FGzdHI5iWA==",
+  "_location": "/stanza",
+  "_phantomChildren": {
+    "async-limiter": "1.0.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "stanza@^11.1.1",
+    "name": "stanza",
+    "escapedName": "stanza",
+    "rawSpec": "^11.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^11.1.1"
+  },
+  "_requiredBy": [
+    "/@andyet/simplewebrtc"
+  ],
+  "_resolved": "https://registry.npmjs.org/stanza/-/stanza-11.3.2.tgz",
+  "_shasum": "ebd557c1a9360496cd3ab5db0bc4e25c6ffcc7ab",
+  "_spec": "stanza@^11.1.1",
+  "_where": "C:\\Users\\Samuel Jones\\Desktop\\HomeFit\\node_modules\\@andyet\\simplewebrtc",
+  "author": {
+    "name": "Lance Stout",
+    "email": "lancestout@gmail.com"
+  },
+  "browser": "./browser-module.js",
+  "bugs": {
+    "url": "https://github.com/legastero/stanza.io/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Philipp Hancke",
+      "email": "fippo@andyet.net"
+    },
+    {
+      "name": "Steven Lloyd Watkin",
+      "email": "lloyd@evilprofessor.co.uk"
+    }
+  ],
+  "dependencies": {
+    "@types/async": "^2.4.0",
+    "@types/node": "^12.0.2",
+    "@types/readable-stream": "^2.3.1",
+    "@types/ws": "^6.0.1",
+    "async": "^2.6.2",
+    "async-es": "^2.6.2",
+    "cross-fetch": "^3.0.2",
+    "jxt": "^4.0.2",
+    "punycode": "^2.1.1",
+    "react-native-randombytes": "^3.5.2",
+    "readable-stream": "^3.3.0",
+    "sdp": "^2.9.0",
+    "tslib": "^1.9.3",
+    "ws": "^7.0.0"
+  },
+  "deprecated": false,
+  "description": "Modern XMPP in the browser, with a JSON API",
+  "homepage": "https://stanzajs.org",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --stage && npm run lint && npm test"
+    }
+  },
+  "keywords": [
+    "jingle",
+    "stanza",
+    "stanza.io",
+    "xmpp"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "module": "./module.js",
+  "name": "stanza",
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "reporter": [
+      "html"
+    ],
+    "all": true
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true
+  },
+  "private": false,
+  "react-native": "./rn-module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legastero/stanza.io.git"
+  },
+  "sideEffects": false,
+  "stanzajs_env_mappings": {
+    "browser": {
+      "./dist/es/lib/async/index.js": "./dist/es/lib/async/index-browser.js",
+      "./dist/es/lib/crypto/index.js": "./dist/es/lib/crypto/index-browser.js",
+      "./dist/es/lib/fetch/index.js": "./dist/es/lib/fetch/index-browser.js",
+      "./dist/es/lib/stringprep/index.js": "./dist/es/lib/stringprep/index-browser.js",
+      "./dist/es/lib/ws/index.js": "./dist/es/lib/ws/index-browser.js"
+    },
+    "react-native": {
+      "./dist/es/lib/async/index.js": "./dist/es/lib/async/index-browser.js",
+      "./dist/es/lib/crypto/index.js": "./dist/es/lib/crypto/index-react-native.js",
+      "./dist/es/lib/fetch/index.js": "./dist/es/lib/fetch/index-browser.js",
+      "./dist/es/lib/stringprep/index.js": "./dist/es/lib/stringprep/index-browser.js",
+      "./dist/es/lib/ws/index.js": "./dist/es/lib/ws/index-browser.js"
+    }
+  },
+  "typings": "./index",
+  "version": "11.3.2"
+}
