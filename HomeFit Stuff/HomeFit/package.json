@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "handlebars": "^4.1.2",
     "jquery": "^3.4.1",
-    "karma": "^4.1.0",
+    "karma": "^6.3.16",
     "semantic-ui-css": "^2.4.1",
     "simplewebrtc": "^3.0.2"
   },
